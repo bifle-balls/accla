@@ -1,0 +1,142 @@
+/* --- Programs Tab Styles --- */
+
+/* Form container */
+.programs-form {
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+/* Dropdown */
+.programs-form .select-field {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  padding: 8px 12px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  box-sizing: border-box;
+}
+
+.programs-form .select-field:focus {
+  border-color: #005105;
+  outline: none;
+  box-shadow: 0 0 3px rgba(0, 81, 5, 0.3);
+}
+
+/* Input */
+.programs-form .input-field {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  padding: 8px 12px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  box-sizing: border-box;
+}
+
+.programs-form .input-field:focus {
+  border-color: #005105;
+  outline: none;
+  box-shadow: 0 0 3px rgba(0, 81, 5, 0.3);
+}
+
+/* Action buttons */
+.programs-form .btn-green {
+  background-color: #22c55e;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background 0.2s ease;
+  margin-right: 10px;
+}
+
+.programs-form .btn-green:hover {
+  background-color: #16a34a;
+}
+
+.programs-form .btn-cancel {
+  background-color: #ef4444;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background 0.2s ease;
+}
+
+.programs-form .btn-cancel:hover {
+  background-color: #dc2626;
+}
+
+/* Programs Table */
+.programs-table-container {
+  overflow-x: auto;
+}
+
+.programs-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  font-size: 0.95rem;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.programs-table thead {
+  background-color: #005105;
+  color: white;
+}
+
+.programs-table th,
+.programs-table td {
+  padding: 12px 15px;
+  text-align: left;
+}
+
+.programs-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.programs-table tbody tr:hover {
+  background-color: #eefbea;
+}
+
+/* Edit/Delete buttons */
+.programs-table .btn-edit,
+.programs-table .btn-delete {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  margin-right: 8px;
+  transition: background 0.2s ease;
+}
+
+.programs-table .btn-edit {
+  background-color: #22c55e;
+  color: white;
+}
+
+.programs-table .btn-edit:hover {
+  background-color: #16a34a;
+}
+
+.programs-table .btn-delete {
+  background-color: #ef4444;
+  color: white;
+}
+
+.programs-table .btn-delete:hover {
+  background-color: #dc2626;
+}

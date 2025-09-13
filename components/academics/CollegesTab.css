@@ -1,0 +1,123 @@
+/* --- Colleges Tab Styles --- */
+
+/* Form container */
+.colleges-form {
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+/* Inputs */
+.colleges-form .input-field {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  padding: 8px 12px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  box-sizing: border-box;
+}
+
+.colleges-form .input-field:focus {
+  border-color: #005105;
+  outline: none;
+  box-shadow: 0 0 3px rgba(0, 81, 5, 0.3);
+}
+
+/* Action buttons */
+.colleges-form .btn-green {
+  background-color: #22c55e;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background 0.2s ease;
+  margin-right: 10px;
+}
+
+.colleges-form .btn-green:hover {
+  background-color: #16a34a;
+}
+
+.colleges-form .btn-cancel {
+  background-color: #ef4444;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background 0.2s ease;
+}
+
+.colleges-form .btn-cancel:hover {
+  background-color: #dc2626;
+}
+
+/* Colleges Table */
+.colleges-table-container {
+  overflow-x: auto;
+}
+
+.colleges-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  font-size: 0.95rem;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.colleges-table thead {
+  background-color: #005105;
+  color: white;
+}
+
+.colleges-table th,
+.colleges-table td {
+  padding: 12px 15px;
+  text-align: left;
+}
+
+.colleges-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.colleges-table tbody tr:hover {
+  background-color: #eefbea;
+}
+
+/* Edit/Delete buttons */
+.colleges-table .btn-edit,
+.colleges-table .btn-delete {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  margin-right: 8px;
+  transition: background 0.2s ease;
+}
+
+.colleges-table .btn-edit {
+  background-color: #22c55e;
+  color: white;
+}
+
+.colleges-table .btn-edit:hover {
+  background-color: #16a34a;
+}
+
+.colleges-table .btn-delete {
+  background-color: #ef4444;
+  color: white;
+}
+
+.colleges-table .btn-delete:hover {
+  background-color: #dc2626;
+}
